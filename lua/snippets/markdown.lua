@@ -14,4 +14,16 @@ ls.add_snippets("markdown", {
     t({"", "+++", ""}),
     i(0),
   }),
+
+    -- 新增的 zfms snippet
+  s("zfms", {
+    t("+++"),
+    t({"", "title = \""}), i(1), t("\""),
+    t({"", "date = "}), f(date),
+    t({"", "authors = [\"小中\"]"}),
+    t({"", "[taxonomies]"}),
+    t({"", "tags = [\""}), i(2), t("\"]"),
+    t({"", "+++", ""}),
+    i(0),
+  }),
 })
